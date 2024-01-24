@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.nn.qa.base.TestBase;
 import com.nn.qa.pages.SigninPage;
+import com.nn.qa.util.LoggerLoad;
 
 public class SigninTest extends TestBase {
 	
@@ -20,8 +21,6 @@ public class SigninTest extends TestBase {
 		init_prop();
 		signinpage=new SigninPage();
 		
-		//registerpage= homepage.Acc();       //     registerpage=new RegisterPage();
-											//     homepage.Acc();
 	}	
 	@Test
 	public void VerifyRegisterTitleTest() {
@@ -30,18 +29,19 @@ public class SigninTest extends TestBase {
     System.out.println("title is "+SigninTitle);
 	}
 	@Test
-	public void firsttry() {
-		signinpage.cookiesclick();
+	public void firsttry(){
+	    signinpage.cookiesclick();
+	    LoggerLoad.info("-------Testing Info------");;
 		System.out.println("hello");
 		signinpage.EnterFirst();
+		 //LoggerLoad.info("-------Testing Info------");
+		System.out.println("hello");
 		signinpage.EnterPwd();
+		 //LoggerLoad.info("-------Testing Info------");
 		signinpage.Signbtn();
 	}
-		
-	
-	
 	@AfterMethod
 	public void tearDown() {
-		//driver.quit();
+	driver.quit();
 	}
 }

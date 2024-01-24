@@ -1,105 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-12T21:57:45 CST" name="Default suite" finished-at="2024-01-12T21:58:11 CST" duration-ms="26461">
+  <suite started-at="2024-01-23T20:26:24 CST" name="Default suite" finished-at="2024-01-23T20:26:49 CST" duration-ms="25005">
     <groups>
     </groups>
-    <test started-at="2024-01-12T21:57:45 CST" name="Default test" finished-at="2024-01-12T21:58:11 CST" duration-ms="26461">
+    <test started-at="2024-01-23T20:26:24 CST" name="Default test" finished-at="2024-01-23T20:26:49 CST" duration-ms="25005">
       <class name="com.nn.qa.testcases.SigninTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nn.qa.testcases.SigninTest@351d00c0]" started-at="2024-01-12T21:57:45 CST" name="setUp" finished-at="2024-01-12T21:57:50 CST" duration-ms="4879" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nn.qa.testcases.SigninTest@5aabbb29]" started-at="2024-01-23T20:26:24 CST" name="setUp" finished-at="2024-01-23T20:26:37 CST" duration-ms="12812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyRegisterTitleTest()[pri:0, instance:com.nn.qa.testcases.SigninTest@351d00c0]" started-at="2024-01-12T21:57:50 CST" name="VerifyRegisterTitleTest" finished-at="2024-01-12T21:57:57 CST" duration-ms="7265" status="PASS">
+        <test-method signature="VerifyRegisterTitleTest()[pri:0, instance:com.nn.qa.testcases.SigninTest@5aabbb29]" started-at="2024-01-23T20:26:37 CST" name="VerifyRegisterTitleTest" finished-at="2024-01-23T20:26:38 CST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyRegisterTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nn.qa.testcases.SigninTest@351d00c0]" started-at="2024-01-12T21:57:57 CST" name="tearDown" finished-at="2024-01-12T21:57:57 CST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nn.qa.testcases.SigninTest@5aabbb29]" started-at="2024-01-23T20:26:38 CST" name="tearDown" finished-at="2024-01-23T20:26:38 CST" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nn.qa.testcases.SigninTest@351d00c0]" started-at="2024-01-12T21:57:57 CST" name="setUp" finished-at="2024-01-12T21:58:11 CST" duration-ms="14008" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nn.qa.testcases.SigninTest@5aabbb29]" started-at="2024-01-23T20:26:38 CST" name="setUp" finished-at="2024-01-23T20:26:47 CST" duration-ms="8799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="firsttry()[pri:0, instance:com.nn.qa.testcases.SigninTest@351d00c0]" started-at="2024-01-12T21:58:11 CST" name="firsttry" finished-at="2024-01-12T21:58:11 CST" duration-ms="116" status="FAIL">
-          <exception class="org.openqa.selenium.InvalidSelectorException">
-            <message>
-              <![CDATA[invalid selector: Unable to locate an element with the xpath expression 2//*[@id="onetrust-banner-sdk"]/div/div/div[1]/button because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': Type conversion failed while evaluating the expression.
-  (Session info: chrome=120.0.6099.217)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [065d3877035b0a107de40d48e419f293, findElement {using=xpath, value=2//*[@id="onetrust-banner-sdk"]/div/div/div[1]/button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\creat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54699/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 065d3877035b0a107de40d48e419f293]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression 2//*[@id="onetrust-banner-sdk"]/div/div/div[1]/button because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': Type conversion failed while evaluating the expression.
-  (Session info: chrome=120.0.6099.217)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [065d3877035b0a107de40d48e419f293, findElement {using=xpath, value=2//*[@id="onetrust-banner-sdk"]/div/div/div[1]/button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\creat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54699/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 065d3877035b0a107de40d48e419f293
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-at com.nn.qa.pages.SigninPage.cookiesclick(SigninPage.java:31)
-at com.nn.qa.testcases.SigninTest.firsttry(SigninTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+        <test-method signature="firsttry()[pri:0, instance:com.nn.qa.testcases.SigninTest@5aabbb29]" started-at="2024-01-23T20:26:47 CST" name="firsttry" finished-at="2024-01-23T20:26:49 CST" duration-ms="1704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firsttry -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nn.qa.testcases.SigninTest@351d00c0]" started-at="2024-01-12T21:58:11 CST" name="tearDown" finished-at="2024-01-12T21:58:11 CST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nn.qa.testcases.SigninTest@5aabbb29]" started-at="2024-01-23T20:26:49 CST" name="tearDown" finished-at="2024-01-23T20:26:49 CST" duration-ms="529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
